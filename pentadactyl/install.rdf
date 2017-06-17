@@ -2,12 +2,13 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest"
-        em:id="pentadactyl@dactyl.googlecode.com"
+        em:id="pentadactyl-signed@willsalmanj.github.com"
         em:type="2"
-        em:name="Pentadactyl"
+        em:name="PentadactylSigned"
         em:version="1.2pre"
         em:description="Firefox for Vim and Links addicts"
         em:homepageURL="http://5digits.org/pentadactyl"
+        em:updateURL="https://raw.githubusercontent.com/willsALMANJ/pentadactyl-signed/master/update.rdf"
         em:bootstrap="true"
         em:multiprocessCompatible="false"
         em:strictCompatibility="true">
@@ -33,7 +34,7 @@
             <Description
                 em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                 em:minVersion="38.0"
-                em:maxVersion="52.*"/>
+                em:maxVersion="56.0"/>
         </em:targetApplication>
     </Description>
 </RDF>
